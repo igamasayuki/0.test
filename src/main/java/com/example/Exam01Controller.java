@@ -17,7 +17,7 @@ public class Exam01Controller {
 
 	@RequestMapping("/input")
 	public String input(String name, Model model) {
-		System.out.println("MacとWindowsで修正");
+		System.out.println("Eclipseで修正");
 		model.addAttribute("name", name);
 		return "exam01-result";
 	}
