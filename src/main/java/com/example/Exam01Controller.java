@@ -10,7 +10,7 @@ public class Exam01Controller {
 
 	@RequestMapping("")
 	public String init() {
-		System.out.println("MacとWindowsで修正");
+		System.out.println("STSで修正");
 		return "exam01";
 	}
 	
